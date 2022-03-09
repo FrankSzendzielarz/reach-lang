@@ -84,6 +84,6 @@ const rps = (choice, outcome) => {
 
 describe('rps-9-web', () => {
   // Bob always plays Paper
-  it('loses', () => rps('Rock', 'Bob wins'));
+  it('loses', () => rps('Rock', 'Bob winz')); // whoops, bad expectation
   it('wins', () => rps('Scissors', 'Alice wins'));
 });
